@@ -8,4 +8,5 @@ fi
 
 USERNAME=$1
 
-ssh $1@newriver1.arc.vt.edu
+ssh $USERNAME@newriver1.arc.vt.edu
+
