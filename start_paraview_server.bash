@@ -2,6 +2,8 @@
 
 # This assumes that you have ParaView 5.2.0 installled somewhere.
 # In this file, I have hardcoded this to the path in my home directory. 
+# Also, You need to give the correct path to the PVX file. I have again hard
+# coded this for now to my own path.
 
 if [ $# -ne 1 ]; then
 	echo "Enter # of pvservers to start."
