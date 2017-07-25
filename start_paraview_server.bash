@@ -24,5 +24,5 @@ SERVER=$1
 # Start new pvservers
 mpiexec -np $1 \
 	vglrun pvserver \
-		cave-momo.pvx &
+		cave-mono.pvx &
 
