@@ -23,6 +23,6 @@ SERVER=$1
 
 # Start new pvservers
 mpiexec -np $1 \
-	vglrun /home/fabidi89/Paraview-v5.2.0/bin/pvserver \
-		/home/fabidi89/git/Thesis/vnc_operations/cave-momo.pvx &
+	vglrun pvserver \
+		cave-momo.pvx &
 
