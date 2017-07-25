@@ -5,11 +5,12 @@ upload a scene file, etc. At the time of writing this documenation, ParaView
 directory. Please load ParaView 5.2.0 module if it has been installed on the
 clusters by then. Else, install it in your home directory.
 
-1. ssh to NewRiver using the script ssh_newriver.bash
-2. Request a node using the script request_node.bash
-3. On the node that you got, load some modules using the script
-   load_modules.bash as "source load_modules.bash".
-4. Go back to your laptop/desktop where ParaView is installed and 
-	create a ssh tunnel using the script create_ssh_tunnel.bash
-5.
+Most of the code in here is on how to use ParaView locally in Hypercube
+since that was most needed at the time of making this repo but can be
+extended to use the HPC clusters instead for rendering. 
+
+A working demo was given to Nicholas to make sure everything in here
+works. Thus, this is tested code.
+
+Refer to the READMEs for more details and contact me if any questions.
 
